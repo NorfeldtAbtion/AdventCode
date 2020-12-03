@@ -1,7 +1,7 @@
 import { validRange } from 'semver'
 import data from './puzzleInput.js'
 
-console.log('https://adventofcode.com/2019/day/2#part2')
+console.log('https://adventofcode.com/2019/day/2')
 const intCode = (array) => {
   let index = 0
   while (array[index] !== 99) {
